@@ -4,7 +4,16 @@ After cloning the repository, run the following command inside the root ( `./` )
 npm install
 ```
 
-After that installing the dependencies, make sure to first start the express server. On the terminal, from the root (`./`) directory, run the following command:
+Inside the `./backend/` directory, create a `.env` file and set the ATLAS_URI to the one you will use.
+
+Something like:
+
+`
+ATLAS_URI=mongodb+srv://user:password@cluster0-v0g0t0.gcp.mongodb.net/test?retryWrites=true&w=majority
+
+`
+
+After that, installing the dependencies, make sure to first start the express server. On the terminal, from the root (`./`) directory, run the following command:
 
 ```
 cd backend && nodemon server.js
