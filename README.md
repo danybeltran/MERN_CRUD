@@ -8,10 +8,10 @@ Inside the `./backend/` directory, create a `.env` file and set the ATLAS_URI to
 
 Something like:
 
-`
+```
 ATLAS_URI=mongodb+srv://user:password@cluster0-v0g0t0.gcp.mongodb.net/test?retryWrites=true&w=majority
 
-`
+```
 
 After that, installing the dependencies, make sure to first start the express server. On the terminal, from the root (`./`) directory, run the following command:
 
