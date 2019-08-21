@@ -27,6 +27,6 @@ Then open a new terminal on the root ( `./` ) directory, and run the following c
 npm start
 ```
 
-This will start the application that will be using the responses from the server. Though there isn't any `fetch()` method in any class Component, axios is being used.
+This will start the application that will be using the responses from the server. I'm using Axios.
 
 You should now be able to see the app running on `http://localhost:3000`
